@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OnClick</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <audio id="scream" src="scream.mp3"></audio>
+    <img class="gif" id="gif" src="gifka.gif" alt="" />
+    <div class="container">
+      <h1 class="title">OnClick</h1>
+      <div class="canvas" id="game">
+        <button class="btn" id="button" onclick="bntHidden(),cl()">Go</button>
+        <button class="fuck" id="fuck"></button>
+        <button class="click" id="click" onclick="clicked()">Click</button>
+      </div>
+      <div class="middle">
+        <button class="fix" id="fix">Fix</button>
+      </div>
+      <div class="results">
+        <span class="scoreconttxt">score:</span>
+        <span class="scorecont" id="scorecont">0</span>
+        <span class="time-txt1" id="timeconttxt1">time:</span>
+        <span class="time-cont" id="timecont">60</span>
+        <span class="time-txt2" id="timeconttxt2">sec</span>
+      </div>
+    </div>
+  </body>
+</html>
